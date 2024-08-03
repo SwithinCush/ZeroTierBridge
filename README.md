@@ -42,8 +42,3 @@ If you would like the container to retain the same ZeroTier client ID on reboot,
 
 `docker run --privileged -e ZT_NETWORKS=NETWORK_ID_HERE ZT_BRIDGE=true -v zt_config:/var/lib/zerotier-one/ zerotierbridge:latest`
 
-#### Caveat: Architecture
-
-If you need to run this on a device with different architecture (a raspberry pi, for instance), then just edit line 3 of the Dockerfile.
-
-If you were using a Raspberry Pi 4, you would change this to `ARCH=arm64` and the container will pull the correct ZeroTier installer.

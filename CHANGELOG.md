@@ -1,3 +1,13 @@
+## [1.1.2a] (2024-08-03)
+
+### Source changes
+
+* simplified and removed unnecessary code form Dockerfile
+* changed docker-compose file with new permissions
+
+---
+Project forked as SwithinCush/ZeroTierBridge
+
 ## [1.1.2](https://github.com/dangeroustech/ZeroTierBridge/compare/v1.1.1...v1.1.2) (2023-10-18)
 
 
